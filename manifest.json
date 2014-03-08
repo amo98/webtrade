@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World",
+  "version": "2",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions":["https://btc-e.com/*","clipboardRead", "clipboardWrite", "storage", "unlimitedStorage",    {"fileSystem": ["write", "retainEntries", "directory"]}
+    ]
+}
