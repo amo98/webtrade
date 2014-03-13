@@ -21,11 +21,23 @@ left: 0;
           }</style>
     </head>
     <body>
-        <h1>Step1</h1>
-        <button id="ticker">ticker</button>
-        <button id="input">input</button>
-        <button id="quit">quit</button>
-        
+        <h1 >ChosenTrade
+            <select id="Trader">
+            </select>
+        </h1>
+        User:
+        <select id="User">
+        </select>
+        <select id="buyorsell">
+            <option value="sell" >sell --></option>
+            <option value="buy" selected  ><-- buy </option>
+        </select>
+
+        PRICE:<input id="Pricer" />
+        <button id="Ticker">GO ON SELL OR BUY</button>
+        <button id="Loader">Loader</button>
+        <button id="Saver">Saver</button>
+        <button id="nonce" >nonce++</button>
         <pre id="output">
 
         </pre>

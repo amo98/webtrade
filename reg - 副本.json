@@ -1,0 +1,7 @@
+{
+    "btcApiUrl": "https://btc-e.com/tapi",
+    "user": [{
+					"id": "amo",
+					"nonce": 12,
+					"key": "DV9IQLKJ-IBGRXLLC-MQQ1BNOA-WQDKRCGJ-YVM4Q2O9",
+					"sec": "7488fd6a2094652667e2e062158226c654d11055c508485c6e612a0c1055405b"}]}
